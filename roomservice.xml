@@ -4,6 +4,5 @@
   <include name="common.xml" />
 
   <include name="onclite.xml" />
-  <!-- <include name="sweet.xml" /> -->
 
 </manifest>
