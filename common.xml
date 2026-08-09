@@ -4,13 +4,4 @@
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
   <remote name="lineage" fetch="https://github.com/LineageOS/" />
 
-  <!-- signing keys — optional, add later once generated -->
-  <!--
-  <project path="vendor/lineage-priv/keys"
-           name="vendor_lineage-priv_keys"
-           remote="yureixen"
-           revision="master"
-           clone-depth="1" />
-  -->
-
 </manifest>
