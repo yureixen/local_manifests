@@ -21,10 +21,4 @@
            revision="lineage-22"
            clone-depth="1" />
 
-  <project path="hardware/xiaomi"
-           name="android_hardware_xiaomi"
-           remote="yureixen"
-           revision="lineage-22"
-           clone-depth="1" />
-
 </manifest>
