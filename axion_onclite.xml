@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yureixen" fetch="https://github.com/yureixen/" />
+  <remote name="axion" fetch="https://github.com/AxionAOSP/" />
+
+  <project path="device/xiaomi/onclite"
+           name="android_device_xiaomi_onclite"
+           remote="yureixen"
+           revision="axionos-1"
+           clone-depth="1" />
+
+  <project path="vendor/xiaomi/onclite"
+           name="proprietary_vendor_xiaomi_onclite"
+           remote="yureixen"
+           revision="lineage-22"
+           clone-depth="1" />
+
+  <project path="kernel/xiaomi/onclite"
+           name="android_kernel_xiaomi_onclite"
+           remote="yureixen"
+           revision="lineage-22"
+           clone-depth="1" />
+
+  <project path="hardware/xiaomi"
+           name="android_hardware_xiaomi"
+           remote="axion"
+           revision="lineage-22.2"
+           clone-depth="1" />
+
+</manifest>
