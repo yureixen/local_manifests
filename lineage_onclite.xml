@@ -18,6 +18,7 @@
 
   <remote name="codeberg" fetch="https://codeberg.org/hadad/" />
   <remote name="lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="onclite" fetch="https://github.com/onclite/" />
 
   <project path="device/xiaomi/onclite"
            name="android_device_xiaomi_onclite"
@@ -41,6 +42,12 @@
            name="android_hardware_xiaomi"
            remote="lineage"
            revision="lineage-23.2"
+           clone-depth="1" />
+     
+  <project path="prebuilts/clang/kernel/linux-x86/clang-proton"
+           name="proton-clang"
+           remote="onclite"
+           revision="20210123"
            clone-depth="1" />
 
 </manifest>
