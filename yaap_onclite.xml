@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
-  <remote name="yaap" fetch="https://github.com/yaap/" />
 
   <project path="device/xiaomi/onclite"
            name="android_device_xiaomi_onclite"
@@ -20,12 +19,6 @@
            name="android_kernel_xiaomi_onclite"
            remote="yureixen"
            revision="lineage-20"
-           clone-depth="1" />
-
-  <project path="hardware/xiaomi"
-           name="hardware_xiaomi"
-           remote="yaap"
-           revision="thirteen"
            clone-depth="1" />
 
 </manifest>
