@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
+  <remote name="lineage" fetch="https://github.com/LineageOS/" />
   <remote name="evolution-devices" fetch="https://github.com/Evolution-X-Devices/" />
 
   <project path="device/xiaomi/onclite"
@@ -23,9 +24,9 @@
            clone-depth="1" />
 
   <project path="hardware/xiaomi"
-           name="hardware_xiaomi"
-           remote="evolution-devices"
-           revision="udc"
+           name="android_hardware_xiaomi"
+           remote="lineage"
+           revision="lineage-21"
            clone-depth="1" />
 
   <project path="packages/apps/ViPER4AndroidFX"
