@@ -34,8 +34,74 @@
            revision="lineage-23.2"
            clone-depth="1" />
 
-  <project path="hardware/samsung_slsi-linaro"
+  <project path="hardware/samsung"
+           name="android_hardware_samsung"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/libbt"
+           name="android_hardware_samsung_slsi_libbt"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/nfc"
+           name="android_hardware_samsung_slsi_nfc"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"
+           name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"
+           name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/codec2"
+           name="android_hardware_samsung_slsi-linaro_codec2"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/config"
+           name="android_hardware_samsung_slsi-linaro_config"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/exynos"
            name="android_hardware_samsung_slsi-linaro_exynos"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/exynos5"
+           name="android_hardware_samsung_slsi-linaro_exynos5"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/graphics"
+           name="android_hardware_samsung_slsi-linaro_graphics"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/openmax"
+           name="android_hardware_samsung_slsi-linaro_openmax"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/interfaces"
+           name="android_hardware_samsung_slsi-linaro_interfaces"
            remote="lineage"
            revision="lineage-23.2"
            clone-depth="1" />
