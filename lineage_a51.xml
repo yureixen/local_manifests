@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  
+  <remote name="lineage" fetch="https://github.com/LineageOS/" />
   <remote name="exynos9611" fetch="https://github.com/Exynos9611Development/" />
 
   <project path="device/samsung/a51"
@@ -35,7 +36,7 @@
 
   <project path="hardware/samsung_slsi-linaro"
            name="android_hardware_samsung_slsi-linaro_exynos"
-           remote="exynos9611"
+           remote="lineage"
            revision="lineage-23.2"
            clone-depth="1" />
 
