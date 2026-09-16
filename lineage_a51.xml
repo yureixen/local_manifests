@@ -33,7 +33,7 @@
            revision="lineage-23.2"
            clone-depth="1" />
 
-  <project path="hardware/samsung"
+  <project path="hardware/samsung_slsi-linaro"
            name="android_hardware_samsung_slsi-linaro_exynos"
            remote="exynos9611"
            revision="lineage-23.2"
