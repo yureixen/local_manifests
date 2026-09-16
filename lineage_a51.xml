@@ -18,7 +18,7 @@
   <project path="kernel/samsung/universal9611"
            name="android_kernel_samsung_universal9611"
            remote="exynos9611"
-           revision="lineage-23.2"
+           revision="AOSP"
            clone-depth="1" />
   
   <project path="vendor/samsung/a51"
