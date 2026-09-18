@@ -19,7 +19,7 @@
            remote="lineage"
            revision="lineage-23.2"
            clone-depth="1" />
-
+  
   <!-- Vendor blobs -->
   <project path="vendor/xiaomi/sweet"
            name="proprietary_vendor_xiaomi_sweet"
