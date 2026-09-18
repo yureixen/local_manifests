@@ -4,7 +4,7 @@
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
   <remote name="lineage" fetch="https://github.com/LineageOS/" />
   <remote name="themuppets" fetch="https://github.com/TheMuppets/" />
-  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="nph" fetch="https://gitlab.com/NoPrincessHere" />
 
   <project path="device/xiaomi/sweet"
            name="android_device_xiaomi_sweet"
@@ -43,14 +43,14 @@
            clone-depth="1" />
 
   <project path="vendor/miuicamera-sweet"
-           name="NoPrincessHere/proprietary_vendor_miuicamera-sweet"
-           remote="gitlab"
+           name="proprietary_vendor_miuicamera-sweet"
+           remote="nph"
            revision="sixteen-qpr2"
            clone-depth="1" />
 
   <project path="vendor/oneplus/dolby"
-           name="NoPrincessHere/proprietary_vendor_oneplus_dolby"
-           remote="gitlab"
+           name="proprietary_vendor_oneplus_dolby"
+           remote="nph"
            revision="sixteen-qpr2"
            clone-depth="1" />
 
