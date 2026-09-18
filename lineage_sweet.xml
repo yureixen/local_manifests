@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yureixen" fetch="https://github.com/yureixen/" />
+  <remote name="lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="themuppets" fetch="https://github.com/TheMuppets/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <project path="device/xiaomi/sweet"
+           name="android_device_xiaomi_sweet"
+           remote="yureixen"
+           revision="baklava-c"
+           clone-depth="1" />
+
+  <project path="device/xiaomi/sm6150-common"
+           name="android_device_xiaomi_sm6150-common"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="vendor/xiaomi/sweet"
+           name="proprietary_vendor_xiaomi_sweet"
+           remote="themuppets"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="vendor/xiaomi/sm6150-common"
+           name="proprietary_vendor_xiaomi_sm6150-common"
+           remote="themuppets"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="kernel/xiaomi/sm6150"
+           name="android_kernel_xiaomi_sm6150"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/xiaomi"
+           name="android_hardware_xiaomi"
+           remote="lineage"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="vendor/miuicamera-sweet"
+           name="NoPrincessHere/proprietary_vendor_miuicamera-sweet"
+           remote="gitlab"
+           revision="sixteen-qpr2"
+           clone-depth="1" />
+
+  <project path="vendor/oneplus/dolby"
+           name="NoPrincessHere/proprietary_vendor_oneplus_dolby"
+           remote="gitlab"
+           revision="sixteen-qpr2"
+           clone-depth="1" />
+
+</manifest>
