@@ -107,7 +107,7 @@
            clone-depth="1" />
   
   <project path="device/samsung_slsi/sepolicy"
-           name="LineageOS/android_device_samsung_slsi_sepolicy"
+           name="android_device_samsung_slsi_sepolicy"
            remote="los"
            revision="lineage-23.2" />
 
