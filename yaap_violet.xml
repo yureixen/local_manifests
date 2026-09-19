@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
-  <remote name="lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="themuppets" fetch="https://github.com/TheMuppets/" />
   <remote name="yeep" fetch="https://github.com/yaap/" />
 
@@ -16,7 +16,7 @@
   <!-- Common device tree -->
   <project path="device/xiaomi/sm6150-common"
            name="android_device_xiaomi_sm6150-common"
-           remote="lineage"
+           remote="los"
            revision="lineage-22.2"
            clone-depth="1" />
 
@@ -37,7 +37,7 @@
   <!-- Kernel source -->
   <project path="kernel/xiaomi/sm6150"
            name="android_kernel_xiaomi_sm6150"
-           remote="lineage"
+           remote="los"
            revision="lineage-22.2"
            clone-depth="1" />
 
