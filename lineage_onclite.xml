@@ -3,7 +3,7 @@
 <manifest>
 
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
-  <remote name="lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="los" fetch="https://github.com/LineageOS/" />
 
   <project path="device/xiaomi/onclite"
            name="android_device_xiaomi_onclite"
@@ -25,7 +25,7 @@
 
   <project path="hardware/xiaomi"
            name="android_hardware_xiaomi"
-           remote="lineage"
+           remote="los"
            revision="lineage-20"
            clone-depth="1" />
 
