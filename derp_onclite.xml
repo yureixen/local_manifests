@@ -3,7 +3,7 @@
 <manifest>
 
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
-  <remote name="d-d" fetch="https://github.com/DerpFest-Devices" />
+  <remote name="dd" fetch="https://github.com/DerpFest-Devices" />
 
   <project path="device/xiaomi/onclite"
            name="android_device_xiaomi_onclite"
@@ -25,7 +25,7 @@
 
   <project path="hardware/xiaomi"
            name="hardware_xiaomi"
-           remote="d-d"
+           remote="dd"
            revision="13"
            clone-depth="1" />
 
