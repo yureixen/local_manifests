@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="los" fetch="https://github.com/LineageOS/" />
+  <remote name="exynos9611" fetch="https://github.com/Exynos9611Development/" />
+
+  <!-- Device tree -->
+  <project path="device/samsung/a51"
+           name="android_device_samsung_a51"
+           remote="exynos9611"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <!-- Common device tree -->
+  <project path="device/samsung/universal9611-common"
+           name="android_device_samsung_universal9611-common"
+           remote="exynos9611"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <!-- Vendor blobs -->
+  <project path="vendor/samsung/a51"
+           name="android_vendor_samsung_a51"
+           remote="exynos9611"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <!-- Common vendor -->
+  <project path="vendor/samsung/universal9611-common"
+           name="android_vendor_samsung_universal9611-common"
+           remote="exynos9611"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <!-- Kernel source -->
+  <project path="kernel/samsung/universal9611"
+           name="android_kernel_samsung_universal9611"
+           remote="exynos9611"
+           revision="AOSP"
+           clone-depth="1" />
+
+  <!-- Samsung HAL/interfaces -->
+  <project path="hardware/samsung"
+           name="android_hardware_samsung"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/libbt"
+           name="android_hardware_samsung_slsi_libbt"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/nfc"
+           name="android_hardware_samsung_slsi_nfc"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"
+           name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"
+           name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/codec2"
+           name="android_hardware_samsung_slsi-linaro_codec2"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/config"
+           name="android_hardware_samsung_slsi-linaro_config"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/exynos"
+           name="android_hardware_samsung_slsi-linaro_exynos"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/exynos5"
+           name="android_hardware_samsung_slsi-linaro_exynos5"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/graphics"
+           name="android_hardware_samsung_slsi-linaro_graphics"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/openmax"
+           name="android_hardware_samsung_slsi-linaro_openmax"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="hardware/samsung_slsi-linaro/interfaces"
+           name="android_hardware_samsung_slsi-linaro_interfaces"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+  <project path="device/samsung_slsi/sepolicy"
+           name="android_device_samsung_slsi_sepolicy"
+           remote="los"
+           revision="lineage-23.2"
+           clone-depth="1" />
+
+</manifest>
