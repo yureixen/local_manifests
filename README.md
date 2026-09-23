@@ -4,7 +4,7 @@
 ```bash
 mkdir -p .repo/local_manifests
 curl -o .repo/local_manifests/violet.xml \
-  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/evolution_violet.xml
+  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/violet/evolution.xml
 ```
 
 # LineageOS
@@ -13,14 +13,14 @@ curl -o .repo/local_manifests/violet.xml \
 ```bash
 mkdir -p .repo/local_manifests
 curl -o .repo/local_manifests/a51.xml \
-  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/lineage_a51.xml
+  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/a51/lineage.xml
 ```
 
 **sweet**
 ```bash
 mkdir -p .repo/local_manifests
 curl -o .repo/local_manifests/sweet.xml \
-  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/lineage_sweet.xml
+  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/sweet/lineage.xml
 ```
 
 # PixelOS
@@ -29,7 +29,7 @@ curl -o .repo/local_manifests/sweet.xml \
 ```bash
 mkdir -p .repo/local_manifests
 curl -o .repo/local_manifests/violet.xml \
-  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/pixelos_violet.xml
+  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/violet/pixelos.xml
 ```
 
 # YAAP
@@ -38,5 +38,5 @@ curl -o .repo/local_manifests/violet.xml \
 ```bash
 mkdir -p .repo/local_manifests
 curl -o .repo/local_manifests/violet.xml \
-  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/yaap_violet.xml
+  https://raw.githubusercontent.com/yureixen/local_manifests/sixteen/violet/yaap.xml
 ```
