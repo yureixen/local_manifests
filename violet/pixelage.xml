@@ -4,6 +4,7 @@
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
   <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="tm" fetch="https://github.com/TheMuppets/" />
+  <remote name="ppa" fetch="https://github.com/ProjectPixelage/" />
 
   <!-- Device tree -->
   <project path="device/xiaomi/violet"
@@ -43,8 +44,8 @@
   <!-- Xiaomi hardware/HAL -->
   <project path="hardware/xiaomi"
            name="android_hardware_xiaomi"
-           remote="los"
-           revision="lineage-22.2"
+           remote="ppa"
+           revision="15"
            clone-depth="1" />
 
 </manifest>
