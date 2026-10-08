@@ -7,6 +7,22 @@ curl -o .repo/local_manifests/onclite.xml \
   https://raw.githubusercontent.com/yureixen/local_manifests/fourteen/onclite/evolution.xml
 ```
 
+# PixelOS
+
+**onclite**
+```bash
+mkdir -p .repo/local_manifests
+curl -o .repo/local_manifests/onclite.xml \
+  https://raw.githubusercontent.com/yureixen/local_manifests/fourteen/onclite/pixelos.xml
+```
+
+**violet**
+```bash
+mkdir -p .repo/local_manifests
+curl -o .repo/local_manifests/violet.xml \
+  https://raw.githubusercontent.com/yureixen/local_manifests/fourteen/violet/pixelos.xml
+```
+
 # LineageOS
 
 **onclite**
@@ -14,4 +30,11 @@ curl -o .repo/local_manifests/onclite.xml \
 mkdir -p .repo/local_manifests
 curl -o .repo/local_manifests/onclite.xml \
   https://raw.githubusercontent.com/yureixen/local_manifests/fourteen/onclite/lineage.xml
+```
+
+**violet**
+```bash
+mkdir -p .repo/local_manifests
+curl -o .repo/local_manifests/violet.xml \
+  https://raw.githubusercontent.com/yureixen/local_manifests/fourteen/violet/lineage.xml
 ```
