@@ -5,6 +5,7 @@
   <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="tm" fetch="https://github.com/TheMuppets/" />
   <remote name="pos" fetch="https://github.com/PixelOS-AOSP/" />
+  <remote name="gl" fetch="https://gitlab.com/" />
 
   <!-- Device tree -->
   <project path="device/xiaomi/violet"
@@ -16,8 +17,8 @@
   <!-- Common device tree -->
   <project path="device/xiaomi/sm6150-common"
            name="android_device_xiaomi_sm6150-common"
-           remote="los"
-           revision="lineage-23.2"
+           remote="yureixen"
+           revision="lineage-23"
            clone-depth="1" />
 
   <!-- Vendor blobs -->
@@ -46,6 +47,13 @@
            name="android_hardware_xiaomi"
            remote="pos"
            revision="sixteen-qpr2"
+           clone-depth="1" />
+
+  <!-- MiuiCamera -->
+  <project path="vendor/MiuiCamera"
+           name="Joker-V2/android_vendor_MiuiCamera"
+           remote="gl"
+           revision="sixteen"
            clone-depth="1" />
 
 </manifest>
