@@ -5,6 +5,7 @@
   <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="tm" fetch="https://github.com/TheMuppets/" />
   <remote name="pos" fetch="https://github.com/PixelOS-AOSP/" />
+  <remote name="exd" fetch="https://github.com/Evolution-X-Devices/" />
   <remote name="gl" fetch="https://gitlab.com/" />
 
   <!-- Device tree -->
@@ -18,7 +19,7 @@
   <project path="device/xiaomi/sm6150-common"
            name="android_device_xiaomi_sm6150-common"
            remote="yureixen"
-           revision="lineage-23"
+           revision="dolby-16"
            clone-depth="1" />
 
   <!-- Vendor blobs -->
@@ -54,6 +55,13 @@
            name="Joker-V2/android_vendor_MiuiCamera"
            remote="gl"
            revision="sixteen"
+           clone-depth="1" />
+  
+  <!-- Dolby -->
+  <project path="hardware/dolby"
+           name="hardware_dolby"
+           remote="exd"
+           revision="bka"
            clone-depth="1" />
 
 </manifest>
