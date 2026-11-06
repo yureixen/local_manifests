@@ -9,7 +9,7 @@
   <project path="device/xiaomi/violet"
            name="android_device_xiaomi_violet"
            remote="yureixen"
-           revision="lineage-24"
+           revision="lineage-23"
            clone-depth="1" />
 
   <!-- Common device tree -->
