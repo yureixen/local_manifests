@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
+
+  <remote name="yureixen" fetch="https://github.com/yureixen/" />
   <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="exynos9611" fetch="https://github.com/Exynos9611Development/" />
 
   <!-- Device tree -->
   <project path="device/samsung/a51"
            name="android_device_samsung_a51"
-           remote="exynos9611"
-           revision="lineage-23.2"
+           remote="yureixen"
+           revision="lineage-23"
            clone-depth="1" />
 
   <!-- Common device tree -->
   <project path="device/samsung/universal9611-common"
            name="android_device_samsung_universal9611-common"
-           remote="exynos9611"
-           revision="lineage-23.2"
+           remote="yureixen"
+           revision="lineage-23"
            clone-depth="1" />
 
   <!-- Vendor blobs -->
   <project path="vendor/samsung/a51"
-           name="android_vendor_samsung_a51"
-           remote="exynos9611"
-           revision="lineage-23.2"
+           name="proprietary_vendor_samsung_a51"
+           remote="yureixen"
+           revision="lineage-23"
            clone-depth="1" />
 
   <!-- Common vendor -->
