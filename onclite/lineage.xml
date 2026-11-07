@@ -8,14 +8,14 @@
   <project path="device/xiaomi/onclite"
            name="android_device_xiaomi_onclite"
            remote="yureixen"
-           revision="fix-22"
+           revision="staging-22"
            clone-depth="1" />
 
   <!-- Vendor blobs -->
   <project path="vendor/xiaomi/onclite"
            name="proprietary_vendor_xiaomi_onclite"
            remote="yureixen"
-           revision="fix-22"
+           revision="staging-22"
            clone-depth="1" />
 
   <!-- Kernel source -->
