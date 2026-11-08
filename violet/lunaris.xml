@@ -25,7 +25,7 @@
   <project path="vendor/xiaomi/violet"
            name="proprietary_vendor_xiaomi_violet"
            remote="yureixen"
-           revision="sixteen"
+           revision="lineage-23"
            clone-depth="1" />
 
   <!-- Common vendor -->
