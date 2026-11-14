@@ -4,6 +4,7 @@
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
   <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="tm" fetch="https://github.com/TheMuppets/" />
+  <remote name="gl" fetch="https://gitlab.com/" />
   <remote name="exd" fetch="https://github.com/Evolution-X-Devices/" />
 
   <!-- Device tree -->
@@ -46,6 +47,13 @@
            name="android_hardware_xiaomi"
            remote="los"
            revision="lineage-23.2"
+           clone-depth="1" />
+
+  <!-- MiuiCamera -->
+  <project path="vendor/MiuiCamera"
+           name="Joker-V2/android_vendor_MiuiCamera"
+           remote="gl"
+           revision="sixteen"
            clone-depth="1" />
   
   <!-- Dolby -->
