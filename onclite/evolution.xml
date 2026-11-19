@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="yureixen" fetch="https://github.com/yureixen/" />
+  <remote name="ao" fetch="https://github.com/aosp-onclite/" />
   <remote name="exd" fetch="https://github.com/Evolution-X-Devices/" />
 
   <!-- Device tree -->
   <project path="device/xiaomi/onclite"
            name="android_device_xiaomi_onclite"
-           remote="yureixen"
+           remote="ao"
            revision="evox-9"
            clone-depth="1" />
 
   <!-- Vendor blobs -->
   <project path="vendor/xiaomi/onclite"
            name="proprietary_vendor_xiaomi_onclite"
-           remote="yureixen"
+           remote="ao"
            revision="lineage-21"
            clone-depth="1" />
 
   <!-- Kernel source -->
   <project path="kernel/xiaomi/onclite"
            name="android_kernel_xiaomi_onclite"
-           remote="yureixen"
+           remote="ao"
            revision="lineage-21"
            clone-depth="1" />
 
