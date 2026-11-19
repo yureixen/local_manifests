@@ -4,6 +4,7 @@
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
   <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="exynos9611" fetch="https://github.com/Exynos9611Development/" />
+  <remote name="pb7" fetch="https://github.com/Parbindar7/" />
 
   <!-- Device tree -->
   <project path="device/samsung/a51"
@@ -36,8 +37,8 @@
   <!-- Kernel source -->
   <project path="kernel/samsung/universal9611"
            name="android_kernel_samsung_universal9611"
-           remote="exynos9611"
-           revision="AOSP"
+           remote="pb7"
+           revision="lineage-23.2"
            clone-depth="1" />
 
   <!-- Samsung HAL/interfaces -->
