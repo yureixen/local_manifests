@@ -37,9 +37,9 @@
 
   <!-- Kernel source -->
   <project path="kernel/xiaomi/sm6150"
-           name="android_kernel_xiaomi_violet"
-           remote="yureixen"
-           revision="sixteen"
+           name="android_kernel_xiaomi_sm6150"
+           remote="los"
+           revision="lineage-23.2"
            clone-depth="1" />
 
   <!-- Xiaomi hardware/HAL -->
