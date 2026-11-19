@@ -4,6 +4,7 @@
   <remote name="yureixen" fetch="https://github.com/yureixen/" />
   <remote name="los" fetch="https://github.com/LineageOS/" />
   <remote name="tm" fetch="https://github.com/TheMuppets/" />
+  <remote name="pos" fetch="https://github.com/PixelOS-Devices/" />
   <remote name="gl" fetch="https://gitlab.com/" />
   <remote name="exd" fetch="https://github.com/Evolution-X-Devices/" />
 
@@ -38,8 +39,8 @@
   <!-- Kernel source -->
   <project path="kernel/xiaomi/sm6150"
            name="android_kernel_xiaomi_sm6150"
-           remote="los"
-           revision="lineage-23.2"
+           remote="pos"
+           revision="seventeen"
            clone-depth="1" />
 
   <!-- Xiaomi hardware/HAL -->
